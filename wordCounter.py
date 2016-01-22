@@ -11,8 +11,8 @@ wordCount = 0
 # iterates through each line within the given files and counts each word ignoring spaces
 for line in fileExample:
 	for i, x in enumerate(line): 
+		if line[i] is ' ':	
 			isSpace = True
-			
 		else:
 			if isSpace:
 				wordCount = wordCount + 1
