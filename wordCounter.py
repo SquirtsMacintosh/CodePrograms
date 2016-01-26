@@ -1,6 +1,8 @@
 # Word Counter that imports a file and counts the number of words
 # Created by Zach Martin
 
+from TKinter import *
+
 # explicitly opens a file to count it's words
 fileExample = open('example.txt','r')
 
