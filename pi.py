@@ -1,4 +1,4 @@
-#Find Pi to any specific digit that the user specifies
+#Generates Pi given a certain number of user specified iterations
 #Created by Zach Martin
 
 import math
